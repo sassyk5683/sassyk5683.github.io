@@ -1,0 +1,147 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    background-color: #d4bff2;
+    font-family: 'Raleway', sans-serif;
+}
+main {
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-right: 20%;
+    margin-left: 20%;
+}
+ul {
+    list-style-type: none;
+    text-align: center;
+    background-color: white;
+    overflow: hidden;
+    padding: 1em;
+}
+li {
+    display: inline;
+}
+li a {
+    color: #9780ac;
+    text-decoration: none;
+    font-size: 2em;
+    padding: 1em;
+}
+li a:hover {
+    background-color: #ebe0ff
+}
+h1 {
+    color: white;
+    text-align: center;
+    text-decoration: underline overline;
+    font-size: 65px;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+h2 {
+    color: white;
+    text-align: center;
+    text-decoration: underline overline;
+    font-size: 45px;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+h3 {
+    color: white;
+    text-align: center;
+    text-decoration: underline overline;
+    font-size: 35px;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+p {
+    color: white;
+    font-size: 20px;
+}
+.intro table {
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-left: 15em;
+    padding-right: 5em;
+}
+#intro {
+    color: white;
+    text-align: center;
+    font-size: 39px;
+    padding-left: 5em;
+    padding-right: 10em;
+}
+.extra h2 {
+    padding-top: 3em;
+}
+#personal {
+    border-radius: 70%;
+    height: auto;
+    width: 580px;
+}
+#favone {
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    padding: 1em;
+}
+#favtwo {
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    padding: 1em;
+}
+#favthree {
+    color: white;
+    text-align: center;
+    font-size: 30px;
+}
+.port p {
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+.port a {
+    text-align: center;
+    color: mediumslateblue;
+    font-size: 30px;
+}
+.blog table {
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+.blog #blog {
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    padding-right: 35em
+}
+embed:focus {
+    outline: none;
+}
+
+/* STYLE IMAGES */
+
+img {
+    border: 5px solid white;
+}
+.row {
+    display: flex;
+}
+.column {
+    flex: 33.33%;
+    padding: 5px;
+}
+.progress {
+    border: 5px solid #2d23be;
+}
